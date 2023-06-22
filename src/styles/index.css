@@ -1,12 +1,78 @@
 
-/* 
+.Applist{
+    margin: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.input-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:1rem;
+}
 
-*/
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+    width: 500px; 
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border:none;
+    background-color: rgb(0, 0, 0);
+    color: #0c85bd;
+    border-radius: 0.25rem;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 75);
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    box-shadow: 0 8px 8px 0 rgb(72, 72, 75),0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);      
+}
+
+ul.todo-list {
+    list-style:none;
+    margin: 20px;
+    padding:50px;
+}
+
+ul.todo-list li {
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+   padding:0.5rem;
+   background-color:#f9f9f9;
+   border-radius:0.25rem;
+   margin-bottom:0.5rem;
+}
+
+ul.todo-list li button {
+    background-color: black;
+    margin-left:0.5rem;
+ }
+ h1 {
+    background-color: rgb(3, 17, 83);
+    color: white;
+    width: 25%;
+    margin-bottom: 2rem;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ body {
+    background-color: rgb(3, 17, 83);
+ }
+
+ p {
+    color: red;
+  }
